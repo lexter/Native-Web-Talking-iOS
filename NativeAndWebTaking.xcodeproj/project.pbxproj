@@ -13,6 +13,7 @@
 		DD68C44D2A7C5B5300CCB541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD68C44B2A7C5B5300CCB541 /* Main.storyboard */; };
 		DD68C44F2A7C5B5400CCB541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD68C44E2A7C5B5400CCB541 /* Assets.xcassets */; };
 		DD68C4522A7C5B5400CCB541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD68C4502A7C5B5400CCB541 /* LaunchScreen.storyboard */; };
+		DD68C45A2A7C5BC600CCB541 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DD68C4592A7C5BC600CCB541 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DD68C44E2A7C5B5400CCB541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD68C4512A7C5B5400CCB541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD68C4532A7C5B5400CCB541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD68C4592A7C5BC600CCB541 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DD68C44E2A7C5B5400CCB541 /* Assets.xcassets */,
 				DD68C4502A7C5B5400CCB541 /* LaunchScreen.storyboard */,
 				DD68C4532A7C5B5400CCB541 /* Info.plist */,
+				DD68C4592A7C5BC600CCB541 /* index.html */,
 			);
 			path = NativeAndWebTaking;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD68C4522A7C5B5400CCB541 /* LaunchScreen.storyboard in Resources */,
+				DD68C45A2A7C5BC600CCB541 /* index.html in Resources */,
 				DD68C44F2A7C5B5400CCB541 /* Assets.xcassets in Resources */,
 				DD68C44D2A7C5B5300CCB541 /* Main.storyboard in Resources */,
 			);
@@ -290,11 +294,13 @@
 				DEVELOPMENT_TEAM = 2Q72ZV38AH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NativeAndWebTaking/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NativeWebTalkPrototype;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +324,13 @@
 				DEVELOPMENT_TEAM = 2Q72ZV38AH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NativeAndWebTaking/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NativeWebTalkPrototype;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
